@@ -167,7 +167,7 @@ function tagClickHandler(event){
 function addClickListenersToTags(){
   /* find all links to tags */
   const allTagLinks = document.querySelectorAll('a[href^="#tag-"]');
-  console.log('all tag links: ' +allTagLinks);
+  console.log('all tag links: ' + allTagLinks);
 
   /* START LOOP: for each link */
   for (let link of allTagLinks) {
@@ -190,7 +190,7 @@ function generateAuthors(){
   for (let article of articles) {
 
     /* find author wrapper */
-    const authorWrapper = article.querySelectorAll(optArticleAuthorSelector);
+    const authorWrapper = article.querySelector(optArticleAuthorSelector);
 
     /* make html variable with empty string */
     let html = '';
