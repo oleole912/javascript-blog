@@ -118,3 +118,24 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+.tag-size-1 {
+  font-size: 100%;
+}
+
+.tag-size-3 {
+  font-size: 150%;
+}
+
+.tag-size-5 {
+  font-size: 190%;
+}
+
+.tags.list li {
+  display: inline-block;
+}
+
+.tags.list a {
+  text-decoration: none;
+  font-weight: 500;
+}
